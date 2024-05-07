@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Nomadic Himachali's</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- font awesome cdn -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <!-- fonts -->
+        <link rel = "stylesheet" href = "font/fonts.css">
+        <!-- normalize css -->
+        <link rel = "stylesheet" href = "css/normalize.css">
+        <!-- custom css -->
+        <link rel = "stylesheet" href = "css/utility.css">
+        <link rel = "stylesheet" href = "css/style.css">
+        <link rel = "stylesheet" href = "css/responsive.css">
+    </head>
+    <body>
+        <!-- navbar  -->
+        <nav class = "navbar">
+            <div class = "container flex">
+                <a href = "index.html" class = "site-brand">
+                    Nomadic<span>Himachali's</span>
+                </a>
+
+                <button type = "button" id = "navbar-show-btn" class = "flex">
+                    <i class = "fas fa-bars"></i>
+                </button>
+                <div id = "navbar-collapse">
+                    <button type = "button" id = "navbar-close-btn" class = "flex">
+                        <i class = "fas fa-times"></i>
+                    </button>
+                    <ul class = "navbar-nav">
+                        <li class = "nav-item">
+                            <a href = "index.html" class = "nav-link">HOME</a>
+                        </li>
+                        <li class = "nav-item">
+                            <a href = "gallery.html" class = "nav-link">GALLERY</a>
+                        </li>
+                        <li class = "nav-item">
+                            <a href = "blog.html" class = "nav-link">DISTRICT</a>
+                        </li>
+                        <li class = "nav-item">
+                            <a href = "hotels.html" class = "nav-link">HOTELS</a>
+                        </li>
+                        
+                        <li class = "nav-item">
+                            <a href = "about.html" class = "nav-link">ABOUT US</a>
+                        </li>
+                        <li class = "nav-item">
+                            <a href = "contact.html" class = "nav-link">CONTACT</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- end of navbar  -->
+
+        <!-- header -->
+        <header class = "flex header-sm">
+            <div class = "container">
+                <div class = "header-title">
+                    <h1>Gallery</h1>
+                    <p>Himachal Pradesh is the northernmost state of India and shares borders with the union territories of Jammu and Kashmir and Ladakh to the north, and the states of Punjab to the west, Haryana to the southwest, Uttarakhand to the southeast and a very narrow border with Uttar Pradesh to the south.</p>
+                </div>
+            </div>
+        </header>
+        <!-- header -->
+
+        <!-- gallery section -->
+        <div id = "gallery" class = "py-4">
+            <div class = "container">
+                <div class = "gallery-row">
+                    <div class = "gallery-item shadow">
+                        <img src = "images/gallery-1.jpg" alt = "gallery img">
+                        <span class = "zoom-icon">
+                            <i class = "fas fa-search-plus"></i>
+                        </span>
+                    </div>
+                    <div class = "gallery-item shadow">
+                        <img src = "images/gallery-2.jpg" alt = "gallery img">
+                        <span class = "zoom-icon">
+                            <i class = "fas fa-search-plus"></i>
+                        </span>
+                    </div>
+                    <div class = "gallery-item shadow">
+                        <img src = "images/gallery-3.jpg"height=260px width="250" alt = "gallery img">
+                        <span class = "zoom-icon">
+                            <i class = "fas fa-search-plus"></i>
+                        </span>
+                    </div>
+                    <div class = "gallery-item shadow">
+                        <img src = "images/gallery-4.jpg" alt = "gallery img">
+                        <span class = "zoom-icon">
+                            <i class = "fas fa-search-plus"></i>
+                        </span>
+                    </div>
+                    <div class = "gallery-item shadow">
+                        <img src = "images/gallery-5.jpg" alt = "gallery img">
+                        <span class = "zoom-icon">
+                            <i class = "fas fa-search-plus"></i>
+                        </span>
+                    </div>
+                    <div class = "gallery-item shadow">
+                        <img src = "images/gallery-6.jpg" alt = "gallery img">
+                        <span class = "zoom-icon">
+                            <i class = "fas fa-search-plus"></i>
+                        </span>
+                    </div>
+                    <div class = "gallery-item shadow">
+                        <img src = "images/gallery-7.jpg" alt = "gallery img">
+                        <span class = "zoom-icon">
+                            <i class = "fas fa-search-plus"></i>
+                        </span>
+                    </div>
+                    <div class = "gallery-item shadow">
+                        <img src = "images/gallery-8.jpg" alt = "gallery img">
+                        <span class = "zoom-icon">
+                            <i class = "fas fa-search-plus"></i>
+                        </span>
+                    </div>
+                    <div class = "gallery-item shadow">
+                        <img src = "images/gallery-9.jpg" alt = "gallery img">
+                        <span class = "zoom-icon">
+                            <i class = "fas fa-search-plus"></i>
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- end of gallery section -->
+
+        <!-- img modal -->
+        <div id = "img-modal-box">
+            <div id = "img-modal">
+                <button type = "button" id = "modal-close-btn" class = "flex">
+                    <i class = "fas fa-times"></i>
+                </button>
+                <button type = "button" id = "prev-btn" class = "flex">
+                    <i class = "fas fa-chevron-left"></i>
+                </button>
+                <button type = "button" id = "next-btn" class = "flex">
+                    <i class = "fas fa-chevron-right"></i>
+                </button>
+                <img src = "images/gallery-1.jpg">
+            </div>
+        </div>
+        <!-- end of img modal -->
+
+        <!-- popular places section -->
+        <section id = "popular" class = "py-4">
+            <div class = "title-wrap">
+                <span class = "sm-title">Know About Some Cool Destination</span>
+                <h2 class = "lg-title">Popular Places</h2>
+            </div>
+
+            <div class = "popular-row">
+                <div class = "popular-item shadow">
+                    <img src = "images/img-pop-1.jpg" alt = "">
+                    <div>
+                        <span>Baba Balaknath Temple, Hamirpur</span>
+                        <ul class = "rating flex">
+                            <li><i class = "fas fa-star"></i></li>
+                            <li><i class = "fas fa-star"></i></li>
+                            <li><i class = "fas fa-star"></i></li>
+                            <li><i class = "fas fa-star"></i></li>
+                            <li><i class = "fas fa-star-half-alt"></i></li>
+                            <li>&nbsp;400 reviews</li>
+                        </ul>
+                        <p class = "text">It is situated 45 KMs. away from “Hamirpur” on the border of Hamirpur and Bilaspur districts of Himachal Pradesh, India. The Baba Balak Nath Temple is situated at the village of “Chakmoh” in the district Hamirpur on hilltop, in a natural cave. An Idol of Baba is placed in the cave.</p>
+                    </div>
+                </div>
+
+                <div class = "popular-item shadow">
+                    <img src = "images/img-pop-2.jpg" alt = "">
+                    <div>
+                        <span><Nav>Norbulingka Monestry Dharamshala</Nav></span>
+                        <ul class = "rating flex">
+                            <li><i class = "fas fa-star"></i></li>
+                            <li><i class = "fas fa-star"></i></li>
+                            <li><i class = "fas fa-star"></i></li>
+                            <li><i class = "fas fa-star"></i></li>
+                            <li><i class = "fas fa-star-half-alt"></i></li>
+                            <li>&nbsp;400 reviews</li>
+                        </ul>
+                        <p class = "text">Norbulingka Institute, founded in 1995 by Kelsang and Kim Yeshi at Sidhpur, near Dharamshala, India, is dedicated to the preservation of the Tibetan culture in its literary and artistic forms.</p>
+                    </div>
+                </div>
+
+                <div class = "popular-item shadow">
+                    <img src = "images/img-pop-3.JPG"height="421px alt = "">
+                    <div>
+                        <span>Bijli Mahadev Kullu</span>
+                        <ul class = "rating flex">
+                            <li><i class = "fas fa-star"></i></li>
+                            <li><i class = "fas fa-star"></i></li>
+                            <li><i class = "fas fa-star"></i></li>
+                            <li><i class = "fas fa-star"></i></li>
+                            <li><i class = "fas fa-star-half-alt"></i></li>
+                            <li>&nbsp;400 reviews</li>
+                        </ul>
+                        <p class = "text">Bijali (thunder Mahadeva temple) Mahadeva Mandir is a located in Kashawri village, Kullu Valley in the Indian state of Himachal Pradesh. It is located at an altitude of about 2,460m in the Kullu Valley. Bijli Mahadev is one of the ancient temples in India and dedicated to Lord Shiva (Mahadev).</p>
+                    </div>
+                </div>
+
+                <div class = "popular-item shadow">
+                    <img src = "images/img-pop-4.jpg" alt = "">
+                    <div>
+                        <span>Baba Baroh Temple,Kangra</span>
+                        <ul class = "rating flex">
+                            <li><i class = "fas fa-star"></i></li>
+                            <li><i class = "fas fa-star"></i></li>
+                            <li><i class = "fas fa-star"></i></li>
+                            <li><i class = "fas fa-star"></i></li>
+                            <li><i class = "fas fa-star-half-alt"></i></li>
+                            <li>&nbsp;400 reviews</li>
+                        </ul>
+                        <p class = "text">Baba Baroh Temple is a popular tourist destination located approximately 52 km away from Dharamshala. Devoted to the Hindu God Krishna and his spouse Radha, this shrine is visited by many pilgrims everyday. </p>
+                    </div>
+                </div>
+
+                <div class = "popular-item shadow">
+                    <img src = "images/img-pop-9.jpg" alt = "">
+                    <div>
+                        <span>Devidarh, Mandi</span>
+                        <ul class = "rating flex">
+                            <li><i class = "fas fa-star"></i></li>
+                            <li><i class = "fas fa-star"></i></li>
+                            <li><i class = "fas fa-star"></i></li>
+                            <li><i class = "fas fa-star"></i></li>
+                            <li><i class = "fas fa-star-half-alt"></i></li>
+                            <li>&nbsp;400 reviews</li>
+                        </ul>
+                        <p class = "text">The place is endowed with breath taking natural beauty having lush green fields, meadows and dense deodar forest. The place is situated at an altitude of 7800 feet and is the last village in the Jiuni valley.</p>
+                    </div>
+                </div>
+
+                <div class = "popular-item shadow">
+                    <img src = "images/img-pop-6.jpg"width="300px" height="421px alt = "">
+                    <div>
+                        <span>Kaza Monestry, Spiti</span>
+                        <ul class = "rating flex">
+                            <li><i class = "fas fa-star"></i></li>
+                            <li><i class = "fas fa-star"></i></li>
+                            <li><i class = "fas fa-star"></i></li>
+                            <li><i class = "fas fa-star"></i></li>
+                            <li><i class = "fas fa-star-half-alt"></i></li>
+                            <li>&nbsp;400 reviews</li>
+                        </ul>
+                        <p class = "text">Sakya Tangyud monastery; built in the year 2009, Sakya Tangyud monastery is situated in Kaza town of Spiti Valley.</p>
+                    </div>
+                </div>
+
+                <div class = "popular-item shadow">
+                    <img src = "images/img-pop-7.jpg" alt = "">
+                    <div>
+                        <span>Shikari Devi, Mandi</span>
+                        <ul class = "rating flex">
+                            <li><i class = "fas fa-star"></i></li>
+                            <li><i class = "fas fa-star"></i></li>
+                            <li><i class = "fas fa-star"></i></li>
+                            <li><i class = "fas fa-star"></i></li>
+                            <li><i class = "fas fa-star-half-alt"></i></li>
+                            <li>&nbsp;400 reviews</li>
+                        </ul>
+                        <p class = "text">Shikari devi temple is located ni mandi district of Himachal( Bagsaid Valley in the Himalayas) Shikari Devi temple is about 18 Kms from Janjehli and connected by a jeep able Forest road. It is situated at an altitude of 3359 Mtr.</p>
+                    </div>
+                </div>
+
+                <div class = "popular-item shadow">
+                    <img src = "images/img-pop-8.jpg" alt = "">
+                    <div>
+                        <span>Shrikhand Mahadev</span>
+                        <ul class = "rating flex">
+                            <li><i class = "fas fa-star"></i></li>
+                            <li><i class = "fas fa-star"></i></li>
+                            <li><i class = "fas fa-star"></i></li>
+                            <li><i class = "fas fa-star"></i></li>
+                            <li><i class = "fas fa-star-half-alt"></i></li>
+                            <li>&nbsp;400 reviews</li>
+                        </ul>
+                        <p class = "text">Shrikhand Mahadev Kailash, also called Shikhar Kailash,[1] is a Hindu pilgrimage site in Nirmand sub-division of Kullu, Himachal Pradesh, India, considered to be an abode of Lord Shiva and his wife Goddess Parvati. It is considered to be one of the toughest treks in India.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- end of popular places section -->
+        
+
+        <!-- footer -->
+        <footer class = "py-4">
+            <div class = "container footer-row">
+                <div class = "footer-item">
+                    <a href = "index.html" class = "site-brand">
+                        Nomadic<span> Himachali's</span>
+                    </a>
+                    <p class = "text">Let us help you to explore Himachal Pardesh with unpopluar Destinations.</p>
+                </div>
+
+                <div class = "footer-item">
+                    <h2>Follow us on: </h2>
+                    <ul class = "social-links">
+                        <li>
+                            <a href = "#">
+                                <i class = "fab fa-facebook-f"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href = "#">
+                                <i class = "fab fa-instagram"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href = "#">
+                                <i class = "fab fa-twitter"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href = "#">
+                                <i class = "fab fa-pinterest"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href = "#">
+                                <i class = "fab fa-google-plus"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class = "footer-item">
+                    <h2>Popular Places:</h2>
+                    <ul>
+                        <li><a href = "#">SHIMLA</a></li>
+                        <li><a href = "#">DHARAMSHALA</a></li>
+                        <li><a href = "#">SOLAN</a></li>
+                        <li><a href = "#">CHAMBA</a></li>
+                        <li><a href = "#">MANALI</a></li>
+                        <li><a href = "#">MANDI</a></li>
+                    </ul>
+                </div>
+
+                
+            </div>
+        </footer>
+        <!-- end of footer -->
+
+        <!-- js -->
+        <script src = "js/script.js"></script>
+        <script>
+            // image modal
+            const allGalleryItem = document.querySelectorAll('.gallery-item');
+            const imgModalDiv = document.getElementById('img-modal-box');
+            const modalCloseBtn = document.getElementById('modal-close-btn');
+            const nextBtn = document.getElementById('next-btn');
+            const prevBtn = document.getElementById('prev-btn');
+            let imgIndex = 0;
+
+            allGalleryItem.forEach((galleryItem) => {
+                galleryItem.addEventListener('click', () => {
+                    imgModalDiv.style.display = "block";
+                    let imgSrc = galleryItem.querySelector('img').src;
+                    imgIndex = parseInt(imgSrc.split("-")[1].substring(0, 1));
+                    showImageContent(imgIndex);
+                })
+            });
+
+            // next click
+            nextBtn.addEventListener('click', () => {
+                imgIndex++;
+                if(imgIndex > allGalleryItem.length){
+                    imgIndex = 1;
+                }
+                showImageContent(imgIndex);
+            });
+
+            // previous click
+            prevBtn.addEventListener('click', () => {
+                imgIndex--;
+                if(imgIndex <= 0){
+                    imgIndex = allGalleryItem.length;
+                }
+                showImageContent(imgIndex);
+            });
+
+            function showImageContent(index){
+                imgModalDiv.querySelector('#img-modal img').src = `images/gallery-${index}.jpg`;
+            }
+
+            modalCloseBtn.addEventListener('click', () => {
+                imgModalDiv.style.display = "none";
+            })
+        </script>
+    </body>
+</html>
